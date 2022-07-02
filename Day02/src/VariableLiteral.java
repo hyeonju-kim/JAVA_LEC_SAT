@@ -13,11 +13,19 @@ public class VariableLiteral {
 		System.out.println("*       *       *");
 		System.out.println("*\t*\t*");
 		
+		
+		
+		
 		// 3. * 3개를 찍는데 밑으로 찍고 시프다..
 		System.out.println("*");
 		System.out.println("*");
 		System.out.println("*");
 		
 		System.out.println("*\n*\n*");
+		
+		// \r\n r은 return 
+		
+		
+		
 	}
 }
