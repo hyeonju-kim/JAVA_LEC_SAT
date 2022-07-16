@@ -34,8 +34,10 @@ public class VariableCasting {
 		System.out.println((int)'A'); //65 출력됨..  아스키코드나 유니코드에 1대1매칭되니까
 		System.out.println((int)'B'); //66 출력됨
 		
-		long regNo = 9201252152618L; //주민번호는 13자린데 int는 10자리까지밖에안되니까 int는 안되겠지!! L을 뒤에안붙여주면 int가 기본형이기때문에 범위를 벗어나서 오류남
+		long regNo = 9201252152618L; //주민번호는 13자린데 int는 10자리까지밖에안되니까 int는 안되겠지!! L을 뒤에안붙여주면 int가 기본형이기때문에 범위를 벗어나서 오류남ㅋㅋ
 		System.out.println(regNo); 
+		
+		
 		
 	}
 	

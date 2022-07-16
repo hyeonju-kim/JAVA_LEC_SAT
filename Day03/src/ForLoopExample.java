@@ -1,5 +1,6 @@
-/*
+/* 
  * 반복문 For
+ * 구구단!!!!!!!!!!!!!!!!!!!!!!
  * for(초기화식;조건식;증감식){
  * 		실행문
  * 	}	
@@ -32,14 +33,19 @@ public class ForLoopExample {
 			if(y>5) break;
 		}
 		*/
+		System.out.println("\n");
 		
-		for(int x1 = 2; x1 <= 9; x1++) { //x결정됨
-			
-			System.out.println("====" + x1 + "단 =====");
-			for(int y1 = 1; y1 <= 9; y1++) { //y결정됨
-				if(y1 == 5) break;
-				System.out.println(x1 + "x" + y1 + "=" + (x1*y1)); //왜 무한루프되지...
+		
+		
+		
+		for(int y1 = 1; y1 <= 9; y1++) { //x결정됨
+			for(int x1 = 2; x1 <= 9; x1++) { //y결정됨
+				
+				System.out.print(x1 + "x" + y1 + "=" + (x1*y1) + "\t");
+				
 			}
+			
+			System.out.print("\n");
 
 		}
 		
